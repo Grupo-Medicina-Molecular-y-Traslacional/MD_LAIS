@@ -1,0 +1,51 @@
+<!--
+To change this template, choose Tools | Templates
+and open the template in the editor.
+-->
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">    
+        <style type="text/css">
+            p { text-align: justify}
+        </style>
+    </head>
+    <body>
+        <div>
+            <p>
+                Molecular Descriptors <br/>
+                Todeschini and Consonni define a Molecular Descriptors (MD) as “the final result of a logical and mathematical procedure which transforms chemical information encoded 
+                within a symbolic representation of a molecule into a useful number or the result of some standardized experiment.”
+            </p>
+            <p>
+                Molecular Graph (MG) and Graph-Theoretical Matrices <br/>
+                A topological representation of a molecule can be carried out through the so-called MG. Molecular graphs are non-directed chemical graphs which represent, in different 
+                conventions, molecules. Usually, in MGs vertices correspond to atoms and lines are named edges and represent covalent bonds between atoms.
+            </p>
+            <p>
+                A graph G, G = (V,E), is defined as an ordered pair consisting of two sets V = V(G) (V is the set of vertices) and E = E(G) (E is the set of edges.), where the 
+                elements of the set E define the binary relationship between the elements of the set V. However, in order to give a more realistic representation of the topology of a 
+                molecule we need to identify the different atoms in the molecule by labeling them with their chemical symbols. In doing so we represent the MG as a weighted graph of 
+                the form G = (V, E, f, V), where V is a set containing the entire chemical symbols of the elements and f is a subjective mapping of the elements of V onto the set V. 
+            </p>
+            <p>
+                The number of vertices in the graph is designed by n and the number of edges by m. In a connected graph G every pair of vertices is joined by a path. A multi-graph 
+                contains pairs of vertices connected by more than one edge. A multi-edge of multiplicity m is a set of m edges incident with the same pair of distinct vertices. The 
+                vertex degree (or valency of atom i), δ(vi) is equal to the number of vertices adjacent to vertex vi. A path is a sequence of vertices vi0, vi1, vi2,...,vil of a 
+                graph, such that vij-1 and vij are adjacent j = 1, 2,...,l. The length of this path is equal to l. The graph distance dij between a pair of vertices vi and vj from a 
+                connected graph G is defined as the length (number of edges) of the shortest path connecting the two vertices. A sub-graph of a  graph G*= (V*, E*), where V* is a 
+                subset of V and E* is a subset of E. An important classification of sub-graphs was proposed by Kier and Hall for calculating molecular connectivity indices. Their 
+                scheme classifies the sub-graphs by order m (number of edges in sub-graph) or type t (path, clusters, path-clusters, and chains, which are designed as p, C, pC, and 
+                Ch, respectively, according to their original definitions).
+            </p>
+            <p>
+                MGs are widely used to represent the chemical structure of covalent compounds in a graphical form. The MG is, however, a non-numerical representation of the chemical 
+                structure, and the computation of TIs requires a numerical description of graphs. Graphs can be represented in algebraic form as matrices. The main matrices in graph 
+                theory are adjacency, distance and incidence matrix. Adjacency matrix A is a square and symmetric matrix of order n whose elements aij are ones or zeros if the 
+                corresponding vertices i and j are adjacent or not. Distance matrix D is a square and symmetric matrix of order n whose elements dij correspond to the topological 
+                distances between atoms i and j. Incidence matrix C expresses the linkage between the vertices and the edges or bonds in the molecule, in which cij are equal to 1 or 0. 
+                If the jth edge and the ith vertex are adjacent, cij = 1, otherwise, cj = 0. For the molecules with n atoms and m bonds, C is a n×m matrix.
+            </p> 
+        </div>
+    </body>
+</html>

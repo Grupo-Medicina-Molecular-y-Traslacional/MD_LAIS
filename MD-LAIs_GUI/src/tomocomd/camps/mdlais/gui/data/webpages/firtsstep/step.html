@@ -1,0 +1,70 @@
+<!--
+To change this template, choose Tools | Templates
+and open the template in the editor.
+-->
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">    
+        <style type="text/css">
+            p { text-align: justify}
+        </style>
+    </head>
+    <body>
+        <div>
+            <p>
+                Welcome to the MD-LAIs suite of the TOMOCOMD-CAMPS software!!!! This is a new version of the TOMOCOMD-CAMPS software (MD-LAIs suite). Thank you for choosing this program!!!
+            </p>
+            <p>
+                TOMOCOMD-CAMPS is an interactive, user-friendly, open source, parallel and multi-platform application designed to calculate 0/1-D numerical descriptors for 
+                protein and peptide sequences, with the objective of characterizing or discriminating among them. This software is comprised of one suite named MD-LAIs (Molecular Descriptors from Amino Acidic Invariants) with parallel functionalities.                
+            </p>
+
+            <p>
+                In this application, MD-LAIs computes molecular descriptors based on the application of aggregation operator over vectors of amino acid invariants. This new version has some relevant features, such as:
+
+            <ul>                   
+                <li>One chemical input format (FASTA files)</li>                
+                <li>Three output file formats: Space Delimited Text file, Weka ARFF file and Comma Separated Values file.</li>                
+                <li>Thirty-nine properties as amino-acid weightings: side-chain mass, electronic atomic charge, MD-LOVIS, QuBils-MIDAS scales and so on</li>                
+                <li>A new ponderation for each amino acid based on fuzzy membership functions (lag ST)</li>
+                <li>Local groups distributed into four classes: chemical amino-acid type, secondary structure preference, R group and K-Mers</li>                
+                <li>Several aggregation operators (Non-Classical (Norms, Means, Statistical) and Classical (Information Theoretic, Classical Algorithms) 
+                    (e.g. Autocorrelation, RDF, Kier-Hall) that generalize the traditional way of obtaining indices from amino-acid (or fragment) contributions; the new indices are obtained by using these invariants over the LAIs (Local Amino Acid Invariants) vector that include amino acid-level indices, and so on</li>
+                <li>Calculations with enhanced speed by using of all CPU cores</li>
+                <li>Descriptor search</li>
+                <li>Eight datasets are provided as example data</li>                    
+            </ul>
+            <p>
+                <b><i>SYSTEM REQUIREMENTS</i></b>
+            </p>
+            <p>
+                Hardware: 
+            </p>
+            <ul>
+                <li>Processor: All processors developed hereafter by Intel Corp. are supported on the assembly level optimization. All AMD current processors work as old Pentium with 
+                    higher clock frequency.</li>
+                <li>Processor Clock Speed: minimum Intel(R) Celeron(R) M processor 1.40GHz or equivalent. Recommended Intel(R) Core2Quad processor 2.5GHz or above.</li>
+                <li>Memory: 256MB minimum, 512MB default tuning. We recommend 4096 MB or above in order to improve performance.</li>
+            </ul>
+            <p>
+                Operating system
+            </p>
+            <ul>
+                <li>MD-LAIs is fully cross-platform software. Only requires Java(TM) 8 (or above) Runtime Environment on the target system.</li>
+            </ul>
+            <p>
+                <b><i>INPUT FILE MODES</i></b>
+                TOMOCOMD-CAMPS accepts and processes protein and peptide files in FASTA format (*.fasta and *.fastax). Click the "input" icon on the main window to load the protein files. 
+            </p>
+            <p>
+                <b><i>OUTPUT FILE MODES</i></b>
+                The default output format is ASCII tabbed files (*.txt). The output data could also be directly saved as CSV files (*.csv) or Weka files (*.arff) if a data 
+                processing software that provides for this option is installed. Click the “output” icon on the main window to define the disk location of the output data file, file 
+                name and file format. The output files contain by default results for invariant (molecular descriptors) computations exclusively. However, the output files could 
+                contain results for LAIs (amino acid descriptors) if desired. Click the show report checkbox, available from the drop-down list of the Options Menu bar, to 
+                select this option (also accessible from the icon bar).
+            </p>
+        </div>
+    </body>
+</html>
