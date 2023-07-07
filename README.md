@@ -5,3 +5,5 @@ Requirements:
 Java Runtime Environment (JRE 8).
 
 To run the application, you must download the file "MD-LAIs_GUI.rar" to a local folder. Then uncompress the downloaded file, browse the folder MD-LAIs and run the file MD-LAIs_GUI.jar. 
+
+The user manual is available as Manual.pdf. Further documentation can be found in the "Help" menu within the application.
