@@ -8,6 +8,6 @@ This software was developed in Java programming language (JDK 8), and it uses th
 Requirements:
 MD-LAIs is platform-independent software. It only requires Java(TM) 8u92 Runtime Environment (JRE) or superior on the operating system.
 
-To run the application, you must download the file "MD-LAIs_GUI.rar" to a local folder. Then uncompress the downloaded file, browse the folder MD-LAIs and run the file MD-LAIs_GUI.jar. 
+Running the poratble application: Download the file "MD-LAIs_GUI.rar" to a local folder. Then uncompress the downloaded file, browse the folder MD-LAIs and run the file MD-LAIs_GUI.jar. 
 
-The user manual is available as Manual.pdf. Further documentation can be found in the "Help" menu within the application.
+Help: The user manual is available as Manual.pdf. Further documentation can be found in the "Help" menu within the application.
