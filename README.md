@@ -3,7 +3,9 @@ MD-LAIs: Molecular Descriptors from Local Amino Acid Invariants version 1.0. MD-
 This software was developed in Java programming language (JDK 8), and it uses the Chemical Development Kit (CDK) and the BioJava library. This software is a desktop-based application composed by a graphical user interface (GUI) and command line interface (CLI). The former was created to ease to the users the configuration of the parameters that compose the descriptors, while the CLI was designed to be used in high throughput environments.
 
 ![workflow](https://github.com/Grupo-Medicina-Molecular-y-Traslacional/MD_LAIS/assets/45304702/8ca6513a-9111-411a-ba38-8bae96e4a3e6)
+Workflow followed in the calculation of MD-LAIs
 ![GUI](https://github.com/Grupo-Medicina-Molecular-y-Traslacional/MD_LAIS/assets/45304702/518fe8b3-3ab8-4b5c-9a56-b1c74af7dab2)
+Main GUI
 
 Requirements:
 MD-LAIs software is designed to run on any UNIX/LINUX or MAC platforms, as well as on microcomputers running Windows 95, 98, ME, 2000 or XP, Vista, 7, 8,10, 11. MD-LAIs is platform-independent software. It only requires Java(TM) 8u92 Runtime Environment or superior on the operating system.
